@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool) # True
 
-ALLOWED_HOSTS = ['trendyshoppers-env.eba-4a6m7x4e.us-west-2.elasticbeanstalk.com', "*"]
+ALLOWED_HOSTS = ['trendy-shop-env.eba-3tg3ueim.us-west-2.elasticbeanstalk.com', "*"]
 
 
 # Application definition
